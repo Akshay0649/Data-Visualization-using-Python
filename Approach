@@ -1,0 +1,25 @@
+The notebook performs several analyses on the 'tips' dataset:
+
+# 1. Scatter Plots:
+#    - Explores the relationship between 'Total Bill' and 'Tip Amount', colored by 'Gender'.
+#    - Visualizes 'Tip' against both 'Total Bill' and 'Size' on the same plot (though this might be confusing).
+
+# 2. Regression Analysis:
+#    - Uses Seaborn's `lmplot` to fit a regression line to the 'Tip' vs 'Total Bill' relationship, indicating a potential linear trend.
+
+# 3. Histograms:
+#    - Shows the distribution of 'Total Bill' using a histogram, revealing its frequency distribution.
+#    - Uses Seaborn's `histplot` to create a histogram of 'Tip' with a kernel density estimate (KDE) for a smoother visualization of the distribution.
+
+# 4. Bar Charts:
+#    - Calculates and plots the mean tip amount for different combinations of 'time' and 'day' using a horizontal bar chart.
+#    - Creates a stacked horizontal bar chart to show both the mean and standard deviation of tips for each 'time' and 'day' combination.
+
+# 5. FacetGrid with Regression:
+#    - Uses Seaborn's `lmplot` with `hue='sex'` and `col='time'` to create separate regression plots for the 'Tip' vs 'Total Bill' relationship based on gender and time of day.
+
+# 6. Subplots with Histograms:
+#    - Creates two subplots side-by-side, showing histograms of 'Tip' and 'Total Bill' respectively.
+
+# In summary, the notebook explores various relationships and distributions within the 'tips' dataset using scatter plots, regression analysis, histograms, and bar charts.
+
